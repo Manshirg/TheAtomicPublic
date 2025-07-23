@@ -1,5 +1,5 @@
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -19,9 +19,14 @@ const Home = () => {
 
         {/* Main Thesis */}
         <div className="bg-white rounded-lg shadow-md p-8 mb-12">
-          <h3 className="text-2xl font-semibold text-gray-900 mb-6">Thesis Statement</h3>
+          <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+            Thesis Statement
+          </h3>
           <blockquote className="text-lg text-gray-700 leading-relaxed italic border-l-4 border-blue-600 pl-6">
-            "The United States' political leadership, media framing, and social anxieties from 1877 to 2016 shaped both the pace of nuclear science advancement and the public's alternating perception of it as a force for progress or existential danger."
+            "The United States' political leadership, media framing, and social
+            anxieties from 1877 to 2016 shaped both the pace of nuclear science
+            advancement and the public's alternating perception of it as a force
+            for progress or existential danger."
           </blockquote>
         </div>
 
@@ -36,7 +41,10 @@ const Home = () => {
               <p className="text-sm text-gray-500 mb-4">The Age of Discovery</p>
             </div>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Scientific enthusiasm and minimal public concern characterized this era. Edison's explorations and early mining reports reflected an optimistic view of radioactive materials as tools for progress and innovation.
+              Scientific enthusiasm and minimal public concern characterized
+              this era. Edison's explorations and early mining reports reflected
+              an optimistic view of radioactive materials as tools for progress
+              and innovation.
             </p>
           </div>
 
@@ -49,7 +57,10 @@ const Home = () => {
               <p className="text-sm text-gray-500 mb-4">Government Control</p>
             </div>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Rise of Cold War nuclear secrecy and domestic propaganda. From Hiroshima to "Atoms for Peace," the government carefully managed public perception through controlled messaging and civil defense campaigns.
+              Rise of Cold War nuclear secrecy and domestic propaganda. From
+              Hiroshima to "Atoms for Peace," the government carefully managed
+              public perception through controlled messaging and civil defense
+              campaigns.
             </p>
           </div>
 
@@ -62,11 +73,13 @@ const Home = () => {
               <p className="text-sm text-gray-500 mb-4">Public Backlash</p>
             </div>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Public backlash and grassroots activism emerged. Three Mile Island, Greenpeace protests, and debates over Yucca Mountain revealed growing distrust and demands for transparency in nuclear policy.
+              Public backlash and grassroots activism emerged. Three Mile
+              Island, Greenpeace protests, and debates over Yucca Mountain
+              revealed growing distrust and demands for transparency in nuclear
+              policy.
             </p>
           </div>
         </div>
-
       </div>
       <Footer />
     </div>

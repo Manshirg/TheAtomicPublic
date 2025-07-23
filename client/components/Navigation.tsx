@@ -1,15 +1,15 @@
-import { Link, useLocation } from 'react-router-dom';
-import { cn } from '@/lib/utils';
+import { Link, useLocation } from "react-router-dom";
+import { cn } from "@/lib/utils";
 
 const Navigation = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/timeline', label: 'Timeline' },
-    { path: '/perception-shifts', label: 'Perception Shifts' },
-    { path: '/government-vs-public', label: 'Government vs Public' },
-    { path: '/bibliography', label: 'Bibliography' },
+    { path: "/", label: "Home" },
+    { path: "/timeline", label: "Timeline" },
+    { path: "/perception-shifts", label: "Perception Shifts" },
+    { path: "/government-vs-public", label: "Government vs Public" },
+    { path: "/bibliography", label: "Bibliography" },
   ];
 
   return (
@@ -28,7 +28,7 @@ const Navigation = () => {
                   "text-sm font-medium transition-colors duration-200 hover:text-blue-600",
                   location.pathname === item.path
                     ? "text-blue-600 border-b-2 border-blue-600 pb-4"
-                    : "text-gray-700"
+                    : "text-gray-700",
                 )}
               >
                 {item.label}

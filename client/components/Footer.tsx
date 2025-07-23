@@ -7,10 +7,12 @@ const Footer = () => {
             © 2025 Manshir Gill | Created for U.S. History Final Project
           </p>
           <p className="text-xs text-gray-500">
-            All sources cited using Chicago-style footnotes | Hosted via GitHub Pages
+            All sources cited using Chicago-style footnotes | Hosted via GitHub
+            Pages
           </p>
           <p className="text-xs text-gray-500">
-            This website is an academic project and is not affiliated with any official institution.
+            This website is an academic project and is not affiliated with any
+            official institution.
           </p>
         </div>
       </div>
