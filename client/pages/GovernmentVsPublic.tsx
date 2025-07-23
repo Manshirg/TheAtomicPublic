@@ -223,6 +223,7 @@ const GovernmentVsPublic = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
