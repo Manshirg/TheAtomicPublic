@@ -197,6 +197,7 @@ const PerceptionShifts = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
