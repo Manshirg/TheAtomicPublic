@@ -177,6 +177,7 @@ const Timeline = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
