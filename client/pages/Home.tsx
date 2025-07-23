@@ -67,13 +67,8 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="text-center mt-16 pt-8 border-t border-gray-200">
-          <p className="text-gray-600 text-sm">
-            Created by Manshir Gill for U.S. History Final Project
-          </p>
-        </div>
       </div>
+      <Footer />
     </div>
   );
 };
