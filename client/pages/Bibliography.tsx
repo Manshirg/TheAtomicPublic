@@ -203,17 +203,15 @@ const Bibliography = () => {
           </p>
         </div>
 
-        {/* Footer */}
+        {/* Academic Integrity Statement */}
         <div className="text-center mt-12 pt-8 border-t border-gray-200">
           <p className="text-gray-600 text-sm">
-            <strong>Academic Integrity Statement:</strong> All sources have been properly cited and attributed. 
+            <strong>Academic Integrity Statement:</strong> All sources have been properly cited and attributed.
             This work represents original analysis based on documented historical evidence.
-          </p>
-          <p className="text-gray-500 text-xs mt-2">
-            U.S. History Final Project • Fall 2024 • Manshir Gill
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
